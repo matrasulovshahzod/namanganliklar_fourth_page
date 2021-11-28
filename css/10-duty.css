@@ -1,0 +1,354 @@
+@font-face{
+    src: url(../font/Rubik-VariableFont_wght.ttf);
+    font-family: rubik;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: rubik;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 100px;
+}
+
+.back{
+    background-color: #F6F6F9;
+    padding-bottom: 15px;
+}
+
+
+
+.top-nav{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight:bold;
+    color: #295091;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.currency{
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+.currency-into{
+    padding-left: 20px;
+    padding-right: 5px;
+    color: #295091;
+    font-weight: 700;
+}
+
+.top-nav a{
+    text-decoration: none;
+}
+
+.top-nav > img{
+    margin-right: 8px;
+    padding: 4px 7px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 32px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.flag >span{
+    padding-left: 5px;
+}
+
+.telegram-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #1E96C8;
+    margin-left: 20px;
+}
+
+.telegram-logo >span{
+    padding-left: 5px;
+}
+
+.navbar{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.nav-item{
+    padding: 15px 5px;
+}
+
+.nav-item:hover{
+    padding: 15px 5px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+
+.nav-item >a{
+    text-decoration: none;
+    color: rgb(97, 89, 97);
+}
+
+.nav-item >a:hover{
+    color: rgb(248, 244, 248);
+}
+
+.navbar >img{
+    margin-top: 15px;
+}
+
+.into-section{
+    display: flex;
+    
+}
+
+.labels{
+    width: 50%;
+    margin-right: 100px;
+}
+
+.label{
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.label1{
+    width: 35%;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+
+.label2{
+    display: block;
+    width: 35%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px 0;
+}
+
+.textarea{
+    padding: 10px;
+}
+
+.knock >a{
+    color: white;
+    text-decoration: none;
+}
+
+.knock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #295093;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 30px 0px 10px 0;
+}
+
+.knock:hover{
+    background-color: #1a1041;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 30px 0px 10px 0;
+}
+
+.table{
+    width: 490px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 18px;
+    flex-grow: 1;
+    border: 1px solid #888888;
+    box-shadow: -5px 10px #888888;
+}
+
+.table >p{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: #295091;
+    text-align: end;
+    Font-size: 25px;
+    padding-top: 5px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text a{
+    color: #888888;
+    text-decoration: none;
+}
+
+.directions-chanel{
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.directions-chanel >span{
+    flex-grow: 1;
+}
+
+.img{
+    margin: 0 7px;
+}
+
+.partof-telegram{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.telegram{
+    display: flex;
+    padding: 7px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #295091;
+    border-radius: 5px;
+}
+
+.telegram >img{
+    padding-right: 5px;
+}
+
+.telegram a{
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.mobile-app >span{
+    flex-grow: 1;
+}
+
+.pic{
+    margin-right: 7px;
+}
+
+.table span{
+    color: #888888;
+}
+
+.telegram >span{
+    color: white;
+}
+
+.foot{
+    background-color:#295093;
+    margin-top: 30px;
+}
+
+.bottom-foot{
+    display: flex;
+    padding: 30px 0;
+    
+}
+
+.foot-text{
+    width: 500px;
+}
+
+.list1{
+    padding-left: 60px;
+    list-style: none;
+}
+
+.list2{
+    padding-left: 60px;
+    list-style: none;
+}
+
+.item{
+    padding: 5px 0;
+    color: white;
+}
+
+.foot-text > p{
+    color: white;
+}
+
+.little-text{
+    padding-bottom: 10px;
+}
+
+.between-logoes{
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+}
+
+.top-nav1{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #133C82;
+}
+
+.logo1{
+    background-color: #133C82;
+    border-radius: 7px;
+    padding: 8px 10px;
+    color: #fff;
+    flex-grow: 2;
+    margin-right: 175px;
+}
+
+.teleg-logo1{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.teleg-logo1 > img{
+    padding-right: 5px;
+}
